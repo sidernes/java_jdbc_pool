@@ -11,7 +11,7 @@ import java.sql.*;
 public class EjemploJdbc {
     public static void main (String[] arg){
         try (
-                Connection conn = DatabaseConnection.getInstance()
+                Connection conn = DatabaseConnection.getConnection()
         ) {
             Repository<Product> repository =  new ProductRepositoryImpl();
             // Create product

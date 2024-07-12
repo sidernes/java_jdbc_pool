@@ -10,7 +10,7 @@ public class DatabaseConnection {
     private static String password = "my-secret-pw";
     private static Connection connection;
 
-    public static Connection getInstance() throws SQLException{
+    public static Connection getConnection() throws SQLException{
         if(connection == null){
             connection = DriverManager.getConnection(url, username, password);
         }
