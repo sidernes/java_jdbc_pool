@@ -1,7 +1,7 @@
-# java_jdbc
+# java jdbc pool
 
 ## Overview
-This project is a Java application that uses JDBC to connect to a MySQL database. It is built using Maven for dependency management and project structure.
+This project is a Java application that uses a JDBC pool to connect to a MySQL database and mange connections. It is built using Maven for dependency management and project structure.
 
 ## Tech Stack 🚀
 
